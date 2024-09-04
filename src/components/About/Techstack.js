@@ -7,12 +7,8 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
-  DiMysql
+  DiJava
 } from "react-icons/di";
-import {
-  SiPostman,
-} from "react-icons/si";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
