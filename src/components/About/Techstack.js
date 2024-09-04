@@ -37,12 +37,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava /><p style={{ fontSize: "16px" }}>Java</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman /><p style={{ fontSize: "16px" }}>Postman</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMysql /><p style={{ fontSize: "16px" }}>My Sql</p>
-      </Col>
+      
     </Row>
   );
 }
