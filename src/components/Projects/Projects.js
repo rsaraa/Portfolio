@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import car from "../../Assets/Projects/car.png";
-import ulaa from "../../Assets/Projects/ulaa.png";
 import ecom from "../../Assets/Projects/ecommerce.png";
 
 function Projects() {
@@ -17,17 +16,7 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ulaa}
-              isBlog={false}
-              title="UlaA"
-              description="The Online Bus Booking System is a web application designed to simplify and streamline the process of booking bus tickets. Developed using HTML, CSS, and Bootstrap for the front-end, and MongoDB for the back-end, this system allows users to search for available buses, book tickets easily."
-              ghLink="https://github.com/rsaraa/UlaA.git"
-              demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={car}
